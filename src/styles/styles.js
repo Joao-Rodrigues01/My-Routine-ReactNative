@@ -9,13 +9,12 @@ export const Container = styled.View`
   
 `;
 
-export const ItemWrapper = styled.View`
+export const ItemWrapper = styled.TouchableOpacity`
   width: 320px;
   height: 120px;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-
 
   background: #FAFAFC;
   margin-bottom: 12px;

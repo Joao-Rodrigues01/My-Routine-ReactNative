@@ -75,7 +75,7 @@ const DATA = [
 
 const Item = ({ title, description, image, hours }) => (
   <ItemWrapper>
-    <Icon name={image} color="#04D361" size={34}/>
+    <Icon name={image} color="#07bed6" size={34}/>
     <TextWrapper>
       <ItemText>{title}</ItemText>
       <Description>{description}</Description>
@@ -96,7 +96,7 @@ export default function Home(){
   return (
     <Container>
       <StatusBar style="auto" />
-      <Title>Rotina</Title>
+      <Title>Minha rotina</Title>
       <List>
         <FlatList 
           data={DATA} 
