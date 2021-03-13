@@ -2,12 +2,7 @@
 
   <center> <h1> My routine App </h1> </center>
 
-<video controls autoplay name="media">
-  <source
-    src="./.github/my-routine.mp4"
-    type="video/mp4"
-  >
-</video>  
+  <center> <img src="./.github/my-routine.jpeg" width="220px" height="440px"/> </center>
 
 
 ## ⚡ Tecnologias
